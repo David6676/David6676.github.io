@@ -1,4 +1,4 @@
-@media (max-width: 473px) {
+@media (max-width: 379px) {
     .socialPages {
         gap: 5px;
     }
@@ -11,6 +11,21 @@
 }
 @media (max-width: 500px) {
     .smallContainer {
-       gap: 10px;
+       gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .smallContainer {
+       width: 90%;
+    }
+}
+@media (max-width: 400px) {
+    .smallContainer {
+       min-height: 400px;
+    }
+    .imgDiv{
+        width: clamp(60%, 50%, 30%);
+        height: clamp(40%, 50%, 30%);
     }
 }
