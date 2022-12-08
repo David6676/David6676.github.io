@@ -1,0 +1,16 @@
+@media (max-width: 473px) {
+    .socialPages {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 827px) {
+    .item {
+       text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .smallContainer {
+       gap: 10px;
+    }
+}
